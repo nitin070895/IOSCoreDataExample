@@ -13,6 +13,8 @@
 		94D4B778203EA9EC00FA218A /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B776203EA9EC00FA218A /* CoreDataExample.xcdatamodeld */; };
 		94D4B77A203EA9EC00FA218A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D4B779203EA9EC00FA218A /* Assets.xcassets */; };
 		94D4B77D203EA9EC00FA218A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D4B77B203EA9EC00FA218A /* LaunchScreen.storyboard */; };
+		94D4B785203ED56200FA218A /* CustomNSObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B784203ED56200FA218A /* CustomNSObjectViewController.swift */; };
+		94D4B787203ED9F100FA218A /* UsersCustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D4B786203ED9F100FA218A /* UsersCustomObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		94D4B779203EA9EC00FA218A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94D4B77C203EA9EC00FA218A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94D4B77E203EA9EC00FA218A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D4B784203ED56200FA218A /* CustomNSObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNSObjectViewController.swift; sourceTree = "<group>"; };
+		94D4B786203ED9F100FA218A /* UsersCustomObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCustomObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				94D4B77B203EA9EC00FA218A /* LaunchScreen.storyboard */,
 				94D4B77E203EA9EC00FA218A /* Info.plist */,
 				94D4B776203EA9EC00FA218A /* CoreDataExample.xcdatamodeld */,
+				94D4B784203ED56200FA218A /* CustomNSObjectViewController.swift */,
+				94D4B786203ED9F100FA218A /* UsersCustomObject.swift */,
 			);
 			path = CoreDataExample;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			files = (
 				94D4B772203EA9EC00FA218A /* ViewController.swift in Sources */,
 				94D4B770203EA9EC00FA218A /* AppDelegate.swift in Sources */,
+				94D4B787203ED9F100FA218A /* UsersCustomObject.swift in Sources */,
 				94D4B778203EA9EC00FA218A /* CoreDataExample.xcdatamodeld in Sources */,
+				94D4B785203ED56200FA218A /* CustomNSObjectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
